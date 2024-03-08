@@ -14,7 +14,20 @@ This project is a web application called "MelodyVerse," built using Node.js, Exp
 
 ### Responsive Desktop & Mobile Views
 
+![Desktop Version](https://raw.githubusercontent.com/Supragya2912/social-app/main/images/ss_desktop.png)
+![Mobile Version](https://raw.githubusercontent.com/Supragya2912/social-app/main/images/ss_mobile.png)
+![Login Page](https://raw.githubusercontent.com/Supragya2912/social-app/main/images/ss_login.png)
+![Signup Page](https://raw.githubusercontent.com/Supragya2912/social-app/main/images/ss_signup.png)
+
+
 ### API Calls - Pagination & Refresh Token Implementation
+
+API calls shows these API calls - 
+1) Get posts by id paginated as user scrolls down
+2) Like api followed by get post by id which refreshes only that post in redux
+3) A failed get posts request because access token got expired followed by refresh token api which refreshes the access token, and once successful retries the same failed api again
+
+![API Calls](https://raw.githubusercontent.com/Supragya2912/social-app/main/images/ss_requests.png)
 
 ## clone or download
 ```terminal
